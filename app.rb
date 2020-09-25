@@ -1,10 +1,10 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get '/medicines' do
-  @medicines = Medicine.all
+  get '/name' do
+  @name = Name.all
  
-  erb :'medicines/index.html.erb'
+  #erb :'medicines/index.html.erb'
 end
   
   

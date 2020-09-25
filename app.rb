@@ -9,4 +9,9 @@ end
     "My hometown is __"  
  end
   
+  
+  GET '/favorite-song' do
+    "My favorite-song is __"  
+ end
+  
 end

@@ -5,6 +5,6 @@ class App < Sinatra::Base
   
 end
   
- returns name 
+ "My name is _ "
   
 end
